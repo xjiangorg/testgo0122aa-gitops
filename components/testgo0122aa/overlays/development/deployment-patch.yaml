@@ -12,5 +12,5 @@ spec:
   template:
     spec:
       containers:
-        - image: quay.io/quay_xjiang/testgo0122aa:github-18dd64fae255dd0559f8e1d2c7e861f28d043d14
+        - image: quay.io/quay_xjiang/testgo0122aa:github-77dfb81ca036a7942f4ecd85e900dcfb7d5539b5
           name: container-image
