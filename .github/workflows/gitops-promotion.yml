@@ -58,7 +58,7 @@ jobs:
       with:
         script: |
           const secrets = {
-            IMAGE_REGISTRY: ``,
+            IMAGE_REGISTRY: `${{ secrets.IMAGE_REGISTRY }}`,
 
             /* Used to verify the image signature and attestation */
             COSIGN_PUBLIC_KEY: `${{ secrets.COSIGN_PUBLIC_KEY }}`, 
